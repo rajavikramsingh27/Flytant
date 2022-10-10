@@ -1,0 +1,402 @@
+{
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "38CE2E7E",
+      "localizations" : [
+
+      ],
+      "name" : "Basic",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "405E282E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "basic_monthly_2",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Basic Monthly",
+          "subscriptionGroupID" : "38CE2E7E",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "289",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5FB7481D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "basic_3_months_2",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Basic 3 Months",
+          "subscriptionGroupID" : "38CE2E7E",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "549",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "429587A8",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "basic_6_months_2",
+          "recurringSubscriptionPeriod" : "P6M",
+          "referenceName" : "Basic 6 Months",
+          "subscriptionGroupID" : "38CE2E7E",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "949",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "FCBD47B2",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "basic_1_year_2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Basic Annually",
+          "subscriptionGroupID" : "38CE2E7E",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "9F870EDE",
+      "localizations" : [
+
+      ],
+      "name" : "Standard",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "199",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "E7104B09",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "std_monthly_2",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Standard Monthly",
+          "subscriptionGroupID" : "9F870EDE",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "589",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "385AFE6A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "std_3_months_2",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Standard 3 Months",
+          "subscriptionGroupID" : "9F870EDE",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1049",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1A8CE9D2",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "std_6_months_2",
+          "recurringSubscriptionPeriod" : "P6M",
+          "referenceName" : "Standard 6 Months",
+          "subscriptionGroupID" : "9F870EDE",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1899",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "9A876EB9",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "std_1_year_2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Standard 1 Year",
+          "subscriptionGroupID" : "9F870EDE",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "DCF3C477",
+      "localizations" : [
+
+      ],
+      "name" : "Advanced",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "299",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C6D8A034",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "adv_monthly_2",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Advanced 1 Monthly",
+          "subscriptionGroupID" : "DCF3C477",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "849",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5FE08049",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "adv_3_months_2",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Advanced 3 Months",
+          "subscriptionGroupID" : "DCF3C477",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1649",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "84139636",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "adv_6_months_2",
+          "recurringSubscriptionPeriod" : "P6M",
+          "referenceName" : "Advanced 6 Months",
+          "subscriptionGroupID" : "DCF3C477",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "2899",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5C3D220C",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "adv_1_year_2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Advanced 1 Year",
+          "subscriptionGroupID" : "DCF3C477",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "AB7A1663",
+      "localizations" : [
+
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "399",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "0EBAB27D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "prem_monthly_2",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "AB7A1663",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1149",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "52365DEE",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "prem_3_months_2",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Premium 3 Months",
+          "subscriptionGroupID" : "AB7A1663",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "2149",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "61FD04F5",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "prem_6_months_2",
+          "recurringSubscriptionPeriod" : "P6M",
+          "referenceName" : "Premium 6 Months",
+          "subscriptionGroupID" : "AB7A1663",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "3849",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "4ACCB1F9",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "prem_1_year_2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium 1 Year",
+          "subscriptionGroupID" : "AB7A1663",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

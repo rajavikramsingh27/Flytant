@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="paymentMethodCell" id="gTV-IL-0wX" customClass="CampaignPaymentCVCell" customModule="Flytant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="291" height="443"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="291" height="443"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yBh-ep-XTo">
+                        <rect key="frame" x="20" y="141.5" width="251" height="100"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="VfY-wA-sSj"/>
+                        </constraints>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe your give away:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ro7-Yh-9I6">
+                        <rect key="frame" x="20" y="113.5" width="251" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Dnc-IQ-Hze"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fd4-Fv-uUi">
+                        <rect key="frame" x="20" y="63.5" width="150" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="HBs-Hd-rgp"/>
+                            <constraint firstAttribute="width" constant="150" id="qFY-rX-6Qo"/>
+                        </constraints>
+                        <state key="normal" title="Giveaway product">
+                            <color key="titleColor" systemColor="labelColor"/>
+                        </state>
+                        <connections>
+                            <action selector="giveAwayAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="tFp-SM-rGY"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4l-Dk-1P9">
+                        <rect key="frame" x="20" y="256.5" width="150" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="Fyh-za-QBy"/>
+                            <constraint firstAttribute="height" constant="40" id="rcj-HK-FrK"/>
+                        </constraints>
+                        <state key="normal" title="Pay Influencer">
+                            <color key="titleColor" systemColor="labelColor"/>
+                        </state>
+                        <connections>
+                            <action selector="payInfluencerAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ECB-GI-5LU"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the pricing:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mf-gh-ULh">
+                        <rect key="frame" x="20" y="306.5" width="117.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="dX4-p1-V0p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lHM-MX-d91">
+                        <rect key="frame" x="20" y="334.5" width="251" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="SX9-ks-WcC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DG-db-W04">
+                        <rect key="frame" x="20" y="379.5" width="80" height="35"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="OBQ-KI-tbD"/>
+                            <constraint firstAttribute="width" constant="80" id="bAo-ef-IfC"/>
+                        </constraints>
+                        <state key="normal" title="Done">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="doneAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="g2z-fw-k4D"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-Rb-uGZ">
+                        <rect key="frame" x="20" y="32.5" width="119" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1DG-db-W04" firstAttribute="top" secondItem="lHM-MX-d91" secondAttribute="bottom" constant="10" id="0Oe-41-gOK"/>
+                <constraint firstItem="lHM-MX-d91" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="0lw-sg-ocb"/>
+                <constraint firstAttribute="trailing" secondItem="yBh-ep-XTo" secondAttribute="trailing" constant="20" id="1Ii-CX-DNH"/>
+                <constraint firstAttribute="trailing" secondItem="ro7-Yh-9I6" secondAttribute="trailing" constant="20" id="6ZK-ie-pDR"/>
+                <constraint firstItem="T4l-Dk-1P9" firstAttribute="top" secondItem="yBh-ep-XTo" secondAttribute="bottom" constant="15" id="8ri-U7-aqW"/>
+                <constraint firstItem="fd4-Fv-uUi" firstAttribute="top" secondItem="TAG-Rb-uGZ" secondAttribute="bottom" constant="10" id="AEt-Fr-XCv"/>
+                <constraint firstItem="yBh-ep-XTo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Djw-O9-2OE"/>
+                <constraint firstItem="TAG-Rb-uGZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="IMa-0k-aQS"/>
+                <constraint firstItem="lHM-MX-d91" firstAttribute="top" secondItem="7Mf-gh-ULh" secondAttribute="bottom" constant="10" id="M3E-oW-6qR"/>
+                <constraint firstItem="ro7-Yh-9I6" firstAttribute="top" secondItem="fd4-Fv-uUi" secondAttribute="bottom" constant="10" id="MRr-KJ-nNA"/>
+                <constraint firstItem="7Mf-gh-ULh" firstAttribute="top" secondItem="T4l-Dk-1P9" secondAttribute="bottom" constant="10" id="NXk-6K-7jD"/>
+                <constraint firstItem="yBh-ep-XTo" firstAttribute="top" secondItem="ro7-Yh-9I6" secondAttribute="bottom" constant="10" id="O29-iz-BmL"/>
+                <constraint firstItem="yBh-ep-XTo" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-30" id="QX8-OP-3j0"/>
+                <constraint firstItem="7Mf-gh-ULh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="gre-fG-Zzc"/>
+                <constraint firstItem="ro7-Yh-9I6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="gzY-vP-2bP"/>
+                <constraint firstItem="fd4-Fv-uUi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="jjl-W5-TE1"/>
+                <constraint firstItem="T4l-Dk-1P9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="oS9-9l-eUM"/>
+                <constraint firstItem="1DG-db-W04" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="tSc-Vf-kmD"/>
+                <constraint firstAttribute="trailing" secondItem="lHM-MX-d91" secondAttribute="trailing" constant="20" id="ymc-oZ-EmL"/>
+            </constraints>
+            <size key="customSize" width="291" height="443"/>
+            <connections>
+                <outlet property="describeGiveAway" destination="ro7-Yh-9I6" id="hua-Xl-pjl"/>
+                <outlet property="describeGiveAwayLabelHeightConstraint" destination="Dnc-IQ-Hze" id="wFJ-YW-RdJ"/>
+                <outlet property="doneButton" destination="1DG-db-W04" id="WgM-ma-Hda"/>
+                <outlet property="enterPriceLabel" destination="7Mf-gh-ULh" id="Ucx-cX-vgb"/>
+                <outlet property="etnerThePricingHeightConstraint" destination="dX4-p1-V0p" id="WRh-ZB-BEg"/>
+                <outlet property="givawayButton" destination="fd4-Fv-uUi" id="urw-dg-19P"/>
+                <outlet property="giveAwayTextView" destination="yBh-ep-XTo" id="bug-LH-LN7"/>
+                <outlet property="payInfluencerButton" destination="T4l-Dk-1P9" id="vYk-PI-d6c"/>
+                <outlet property="priceTF" destination="lHM-MX-d91" id="Ry7-X6-Ovl"/>
+                <outlet property="priceTFHeightConstraint" destination="SX9-ks-WcC" id="LVm-sn-xxp"/>
+                <outlet property="textViewHeightConstraint" destination="VfY-wA-sSj" id="0kf-tO-vkR"/>
+            </connections>
+            <point key="canvasLocation" x="283.33333333333337" y="219.97767857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

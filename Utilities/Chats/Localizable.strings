@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Flytant
+
+  Created by Vivek Rai on 18/08/20.
+  Copyright © 2020 Vivek Rai. All rights reserved.
+*/
+
+"SIN_INCOMING_CALL" = "Incoming Call";
+"SIN_CANCEL_CALL" = "Cancel Call";

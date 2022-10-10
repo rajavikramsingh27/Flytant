@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="instagramPrivateTVCell" rowHeight="262" id="KGk-i7-Jjw" customClass="InstagramPrivateTVCell" customModule="Flytant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="262"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="This account is private" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQx-Bc-7Zo">
+                        <rect key="frame" x="65.5" y="230" width="189" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KmB-w1-aHi" customClass="RoundImageView" customModule="Flytant" customModuleProvider="target">
+                        <rect key="frame" x="15" y="10" width="64" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="KmB-w1-aHi" secondAttribute="height" multiplier="1:1" id="6IA-XN-pDq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wu7-NX-0Zb">
+                        <rect key="frame" x="87" y="20.5" width="85" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello this just for testing the bio part of the instagram how far it goes and how to make it" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqX-O6-60o">
+                        <rect key="frame" x="87" y="50" width="217" height="97"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aBB-tz-KXL">
+                        <rect key="frame" x="130" y="162.5" width="60" height="59"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="2pG-ht-Vk5"/>
+                            <constraint firstAttribute="height" constant="60" id="37C-kb-LYy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KmB-w1-aHi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="0Vv-Ez-D2K"/>
+                    <constraint firstItem="BQx-Bc-7Zo" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="GbX-n7-dl1"/>
+                    <constraint firstItem="Wu7-NX-0Zb" firstAttribute="bottom" secondItem="KmB-w1-aHi" secondAttribute="centerY" id="IPZ-Aq-l61"/>
+                    <constraint firstItem="vqX-O6-60o" firstAttribute="leading" secondItem="KmB-w1-aHi" secondAttribute="trailing" constant="8" id="Ocl-6k-jAP"/>
+                    <constraint firstItem="vqX-O6-60o" firstAttribute="top" secondItem="Wu7-NX-0Zb" secondAttribute="bottom" constant="8" id="P9z-Ol-yx5"/>
+                    <constraint firstItem="KmB-w1-aHi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QvY-5d-Yiy"/>
+                    <constraint firstItem="Wu7-NX-0Zb" firstAttribute="leading" secondItem="KmB-w1-aHi" secondAttribute="trailing" constant="8" id="TIi-ar-jsV"/>
+                    <constraint firstItem="BQx-Bc-7Zo" firstAttribute="top" secondItem="aBB-tz-KXL" secondAttribute="bottom" constant="8" id="h7A-eE-WZx"/>
+                    <constraint firstItem="vqX-O6-60o" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="iYm-jz-jyW"/>
+                    <constraint firstItem="KmB-w1-aHi" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.2" id="uYc-e1-uCw"/>
+                    <constraint firstItem="aBB-tz-KXL" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="wHp-bS-BFa"/>
+                    <constraint firstItem="BQx-Bc-7Zo" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="wyC-ou-Ofa"/>
+                    <constraint firstItem="aBB-tz-KXL" firstAttribute="top" secondItem="vqX-O6-60o" secondAttribute="bottom" constant="15" id="yAS-hA-4rd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="accountPrivateLabel" destination="BQx-Bc-7Zo" id="Jgr-Ck-PFh"/>
+                <outlet property="instaProfileImageView" destination="KmB-w1-aHi" id="kaB-Pw-qAu"/>
+                <outlet property="instagramBio" destination="vqX-O6-60o" id="IDY-EX-LUz"/>
+                <outlet property="instagramUsername" destination="Wu7-NX-0Zb" id="Qh5-0F-0NG"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="166.07142857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lock.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

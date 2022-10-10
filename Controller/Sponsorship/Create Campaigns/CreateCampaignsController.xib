@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateCampaignsController" customModule="Flytant" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="L6q-Gh-5cP" id="CWp-Fb-PRE"/>
+                <outlet property="campaignCollectionVIew" destination="m6Z-HL-6jU" id="uKM-Vk-FXU"/>
+                <outlet property="downButton" destination="yOn-LC-eUd" id="ZCp-Hg-rak"/>
+                <outlet property="upButton" destination="kTR-AC-QqR" id="ea8-5S-T8v"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="m6Z-HL-6jU">
+                    <rect key="frame" x="0.0" y="98" width="414" height="798"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="pBH-Vj-4rs">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOn-LC-eUd">
+                    <rect key="frame" x="354" y="756" width="40" height="40"/>
+                    <color key="backgroundColor" systemColor="labelColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Cyv-lG-r0r"/>
+                        <constraint firstAttribute="width" constant="40" id="ndo-7H-0ug"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    <state key="normal" image="chevron.down" catalog="system"/>
+                    <connections>
+                        <action selector="goDown:" destination="-1" eventType="touchUpInside" id="UWN-7q-mzj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTR-AC-QqR">
+                    <rect key="frame" x="294" y="756" width="40" height="40"/>
+                    <color key="backgroundColor" systemColor="labelColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ZbD-8B-IRg"/>
+                        <constraint firstAttribute="width" constant="40" id="tpJ-7h-8xz"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    <state key="normal" image="chevron.up" catalog="system"/>
+                    <connections>
+                        <action selector="goUp:" destination="-1" eventType="touchUpInside" id="yS0-om-pPG"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSN-NF-1LC">
+                    <rect key="frame" x="0.0" y="44" width="414" height="54"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Campaign" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Btm-Cu-0pk">
+                            <rect key="frame" x="129" y="15" width="156.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6q-Gh-5cP">
+                            <rect key="frame" x="15" y="0.0" width="54" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="L6q-Gh-5cP" secondAttribute="height" multiplier="1:1" id="W1p-EF-mwO"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <state key="normal" image="chevron.backward" catalog="system"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="lPb-WL-OYH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="L6q-Gh-5cP" firstAttribute="top" secondItem="bSN-NF-1LC" secondAttribute="top" id="PYQ-bY-GYu"/>
+                        <constraint firstItem="L6q-Gh-5cP" firstAttribute="leading" secondItem="bSN-NF-1LC" secondAttribute="leading" constant="15" id="Piv-WB-M2T"/>
+                        <constraint firstAttribute="bottom" secondItem="L6q-Gh-5cP" secondAttribute="bottom" id="TLe-eN-wbU"/>
+                        <constraint firstItem="Btm-Cu-0pk" firstAttribute="centerY" secondItem="bSN-NF-1LC" secondAttribute="centerY" id="Y5o-32-9XQ"/>
+                        <constraint firstAttribute="height" constant="54" id="k1W-HQ-x8F"/>
+                        <constraint firstItem="Btm-Cu-0pk" firstAttribute="centerX" secondItem="bSN-NF-1LC" secondAttribute="centerX" id="omR-Jo-cVQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="m6Z-HL-6jU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0F2-2d-asm"/>
+                <constraint firstItem="yOn-LC-eUd" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-100" id="2YN-pQ-CYs"/>
+                <constraint firstItem="bSN-NF-1LC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MiG-Yh-DIy"/>
+                <constraint firstItem="bSN-NF-1LC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="S9k-7x-klT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yOn-LC-eUd" secondAttribute="trailing" constant="20" id="UOJ-ba-vrm"/>
+                <constraint firstItem="yOn-LC-eUd" firstAttribute="leading" secondItem="kTR-AC-QqR" secondAttribute="trailing" constant="20" id="WSC-WJ-Gdf"/>
+                <constraint firstItem="yOn-LC-eUd" firstAttribute="top" secondItem="kTR-AC-QqR" secondAttribute="top" id="Zrx-Fa-dwO"/>
+                <constraint firstAttribute="bottom" secondItem="m6Z-HL-6jU" secondAttribute="bottom" id="a99-GH-uws"/>
+                <constraint firstItem="m6Z-HL-6jU" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="azH-g5-PGX"/>
+                <constraint firstItem="m6Z-HL-6jU" firstAttribute="top" secondItem="bSN-NF-1LC" secondAttribute="bottom" id="iDV-28-6gP"/>
+                <constraint firstItem="bSN-NF-1LC" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="sjC-Yp-m3e"/>
+            </constraints>
+            <point key="canvasLocation" x="108.69565217391305" y="88.392857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+        <image name="chevron.up" catalog="system" width="128" height="72"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
